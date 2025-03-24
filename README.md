@@ -1,51 +1,61 @@
-# 🎨 Documentação do frontend da Plataforma de Acolhimento da Paciente Oncológica (PAAPO)
+# 🎨 Documentação frontend da Plataforma de Acolhimento da Paciente Oncológica (PAAPO)
 
 ## 🚀 Visão Geral
 
-Este repositório contém a implementação do frontend do projeto **Plataforma de Acolhimento da Paciente Oncológica (PAAPO)**. O objetivo deste sistema é fornecer uma interface interativa e acessível para os usuários interagirem com os serviços de acolhimento e suporte.
+Este repositório contém a implementação do frontend da **Plataforma de Acolhimento da Paciente Oncológica (PAAPO)**. O objetivo deste projeto é fornecer a interface gráfica e as interações com o usuário, consumindo a API do backend.
 
 ## 🔌 Tecnologias Utilizadas
 
-- **Angular 19.2.4**: Framework para desenvolvimento da aplicação frontend.
-- **TypeScript**: Linguagem de programação tipada para o desenvolvimento mais seguro e escalável.
-- **SCSS**: Utilizado para estilização global e componentizada.
-- **Angular CLI**: Ferramenta para gerenciamento e automação de tarefas.
-- **RxJS**: Programação reativa para gerenciamento de estados e eventos assíncronos.
+- **Angular 19.2.4**: Framework para desenvolvimento frontend.
+- **TypeScript**: Superconjunto do JavaScript utilizado no desenvolvimento.
+- **SCSS**: Utilizado para estilização global.
+- **Angular Router**: Gerenciamento de rotas dentro da aplicação.
+- **RxJS**: Programação reativa para manipulação de eventos assíncronos.
 
 ## 📂 Estrutura do projeto
 
-📦 **paapo-frontend**
+📦 **frontPaapo**
 
     |- 📂 src
         |- 📂 app
-            |- 📂 models         # Modelos de dados
-            |- 📂 components     # Componentes reutilizáveis da interface
-            |- 📂 services       # Serviços para regras de negócio e chamadas HTTP
-            |- 📜 app.routes.ts  # Arquivo que define as rotas do sistema
-        |- 📂 assets            # Recursos estáticos (imagens, ícones, fontes)
-        |- 📜 styles.scss       # Arquivo de estilo global
-    |- 📜 angular.json         # Configurações do projeto Angular e dependências instaladas
-    |- 📜 package.json         # Dependências e scripts do projeto
-    |- 📜 README.md            # Documentação do projeto
+            |- 📂 models       # Modelos de dados
+            |- 📂 components   # Componentes reutilizáveis
+            |- 📂 services     # Serviços para comunicação com APIs
+            |- 📜 app.routes.ts  # Gerenciamento das rotas do sistema
+        |- 📜 styles.scss    # Arquivo global de estilos
+        |- 📜 angular.json   # Configuração e dependências do projeto
 
 ## 🛠️ Configuração inicial
 
 ### 1️⃣ Clonar o repositório:
+
 ```sh
-  git clone https://github.com/seu-usuario/paapo-frontend.git
-  cd paapo-frontend
+  git clone https://github.com/PIE6-PAAPO/frontend-PAAPO.git
+  cd frontPaapo
 ```
 
 ### 2️⃣ Instalar as dependências:
+
 ```sh
   npm install
 ```
 
 ### 3️⃣ Rodar o projeto:
+
 ```sh
   ng serve
 ```
+
 O projeto estará disponível em **http://localhost:4200**
 
+## 📄 Contribuindo
 
+1. Faça um fork do repositório
+2. Crie uma branch com sua feature: `git checkout -b id-da-task`
+3. Faça commit seguindo o padrão: `git commit -m "feat: descrição breve da alteração"`
+4. Envie as mudanças: `git push origin id-da-task`
+5. Abra um Pull Request.
+
+---
+🚀 **Plataforma de Acolhimento da Paciente Oncológica - PAAPO**
 
