@@ -46,7 +46,7 @@ Este repositório contém a implementação do frontend da **Plataforma de Acolh
   ng serve
 ```
 
-O projeto estará disponível em **http://localhost:4200**
+O projeto estará disponível em **http://localhost:5500**
 
 🚀 **Plataforma de Acolhimento da Paciente Oncológica - PAAPO**
 
