@@ -32,7 +32,7 @@ Este repositório contém a implementação do frontend do projeto **Plataforma 
 
 ### 1️⃣ Clonar o repositório:
 ```sh
-  git clone https://github.com/seu-usuario/paapo-frontend.git
+  git clone https://github.com//paapo-frontend.git
   cd paapo-frontend
 ```
 
