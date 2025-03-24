@@ -48,14 +48,5 @@ Este repositório contém a implementação do frontend da **Plataforma de Acolh
 
 O projeto estará disponível em **http://localhost:4200**
 
-## 📄 Contribuindo
-
-1. Faça um fork do repositório
-2. Crie uma branch com sua feature: `git checkout -b id-da-task`
-3. Faça commit seguindo o padrão: `git commit -m "feat: descrição breve da alteração"`
-4. Envie as mudanças: `git push origin id-da-task`
-5. Abra um Pull Request.
-
----
 🚀 **Plataforma de Acolhimento da Paciente Oncológica - PAAPO**
 
