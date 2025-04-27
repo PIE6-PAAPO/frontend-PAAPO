@@ -7,7 +7,12 @@
 }
 
 @font-face {
-    font-family: "Glacial";
+    font-family: "Glacial-Regular";
     src: url('../fontes/GlacialIndifference-Regular.otf');
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
