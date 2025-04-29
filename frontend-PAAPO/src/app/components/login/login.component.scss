@@ -1,0 +1,50 @@
+ .login-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+.left {
+    width: 50%;
+    height: 100%;
+    background-color: #82243B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.right {
+    width: 50%;
+    height: 100%;
+    background-color: #D4D4D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+h3 {
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 40px;
+    color: #FCFCFC;
+}
+
+h1 {
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 40px;
+    color: #353535;
+    margin-bottom: 3rem;
+
+
+}
+  
