@@ -68,7 +68,7 @@
 .segunda-imagem svg{
     width: 433px;
     height: 507px;
-    margin-top: 220px;
+    margin-top: 300px;
     margin-left: 81px;
 }
 
@@ -77,16 +77,16 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 204px;
+    padding-top: 282px;
 }
 
-.segundo-texto h3{
+.segundo-texto h5{
     font-family: 'Glacial-Regular', sans-serif;
     font-size: 25px;
     color: #000000;
 }
 
-.segundo-texto h1{
+.segundo-texto h4{
     font-family: 'Glacial-Bold', sans-serif;
     font-size: 31px;
     color: #000000;
@@ -108,33 +108,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
-    padding: 40px 20px;
-    margin-top: 80px;
+    gap: 50px; 
+    padding: 60px 20px; 
+    margin-top: 220px; 
 }
 
 .terceiro-texto {
     text-align: center;
     font-family: 'Glacial-Bold', sans-serif;
     color: #000000;
+    font-size: 31px; 
 }
-
 
 .icones-funcionamento {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px;
-    flex-wrap: wrap; 
+    gap: 60px; 
+    flex-wrap: wrap;
 }
 
 .icone-quadrado {
     background-color: #d9d9d9;
-    width: 200px;
-    height: 250px;
-    border-radius: 16px;
-    padding: 20px 10px;
+    width: 400px; 
+    height: 300px; 
+    border-radius: 20px; 
+    padding: 30px 20px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,20 +148,57 @@
 }
 
 .icone-quadrado i {
-    font-size: 50px;
+    font-size: 65px; 
     color: #000000;
 }
 
 .icone-quadrado .titulo {
-    margin-top: 10px;
-    font-size: 16px;
+    margin-top: 15px;
+    font-size: 20px; 
     font-weight: bold;
     font-family: 'Glacial-Bold', sans-serif;
 }
 
 .icone-quadrado .descricao {
-    margin-top: 8px;
-    font-size: 13px;
+    margin-top: 12px;
+    font-size: 15px; 
     color: #000000;
     font-family: 'Glacial-Regular', sans-serif;
+}
+
+.quarta-secao {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    gap: 100px; 
+    padding: 261px 1px; 
+}
+
+.quarta-secao svg {
+    width: 514px;
+    height: 549px;
+    border-radius: 8px; 
+    object-fit: cover; 
+}
+
+.autora {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 600px;
+}
+
+.autora h2 {
+    font-family: 'Glacial-Bold', sans-serif;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.descricao-autora {
+    font-family: 'Glacial-Regular', sans-serif;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 20px;
+    line-height: 30px;
 }
