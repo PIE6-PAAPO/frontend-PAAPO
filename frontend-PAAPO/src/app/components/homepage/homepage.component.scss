@@ -31,7 +31,7 @@
 .cadastrar{
     background-color: #BA3D5C;
     width: 286px;
-    height: 49px;
+    height: 50px;
     font-family: 'Glacial-Bold', sans-serif;
     font-size: 24px;
     color: #ffff;
@@ -130,7 +130,7 @@
 }
 
 .icone-quadrado {
-    background-color: #d9d9d9;
+    background-color: #BA3D5C;
     width: 400px; 
     height: 300px; 
     border-radius: 20px; 
@@ -149,7 +149,7 @@
 
 .icone-quadrado i {
     font-size: 65px; 
-    color: #000000;
+    color: #ffffff;
 }
 
 .icone-quadrado .titulo {
@@ -157,12 +157,13 @@
     font-size: 20px; 
     font-weight: bold;
     font-family: 'Glacial-Bold', sans-serif;
+    color: #ffffff;
 }
 
 .icone-quadrado .descricao {
     margin-top: 12px;
     font-size: 15px; 
-    color: #000000;
+    color: #ffffff;
     font-family: 'Glacial-Regular', sans-serif;
 }
 
@@ -202,3 +203,237 @@
     margin-bottom: 20px;
     line-height: 30px;
 }
+
+/* ======== MOBILE FIRST (até 485px) ======== */
+@media (max-width: 485px) {
+
+    /* Seção 1 - Primeira dobra */
+    .primeira-secao {
+      flex-direction: column;
+      padding: 20px;
+      gap: 20px;
+      text-align: center;
+    } 
+  
+    .texto-inicial {
+      margin: 20px 0 0 0;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .texto-inicial h1 {
+      font-size: 28px;
+    }
+  
+    .texto-inicial p {
+      font-size: 14px;
+    }
+  
+    .cadastrar {
+      width: 90%;
+      font-size: 16px;
+      height: 44px;
+    }
+  
+    .imagem-inicial svg {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Seção 2 */
+    .segunda-secao {
+      flex-direction: column;
+      padding: 20px;
+      gap: 20px;
+    }
+  
+    .segunda-imagem svg {
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+  
+    .segundo-texto {
+      padding: 0;
+      text-align: center;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .segundo-texto h5 {
+      font-size: 16px;
+    }
+  
+    .segundo-texto h4 {
+      font-size: 20px;
+    }
+  
+    .segundo-texto p {
+      font-size: 14px;
+      margin-top: 15px;
+    }
+  
+    /* Seção 3 - Funcionalidades */
+    .terceira-secao {
+      margin-top: 60px;
+      padding: 30px 15px;
+      gap: 30px;
+    }
+  
+    .terceiro-texto {
+      font-size: 20px;
+    }
+  
+    .icones-funcionamento {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .icone-quadrado {
+      width: 100%;
+      max-width: 280px;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .icone-quadrado i {
+      font-size: 40px;
+    }
+  
+    .icone-quadrado .titulo {
+      font-size: 16px;
+    }
+  
+    .icone-quadrado .descricao {
+      font-size: 13px;
+    }
+  
+    /* Seção 4 - Autora */
+    .quarta-secao {
+      flex-direction: column;
+      padding: 40px 20px;
+      gap: 30px;
+    }
+  
+    .quarta-secao svg {
+      width: 100%;
+      height: auto;
+    }
+  
+    .autora {
+      text-align: center;
+      align-items: center;
+    }
+  
+    .autora h2 {
+      font-size: 24px;
+    }
+  
+    .descricao-autora {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  
+  /* ======== DESKTOP GRANDE (mínimo 1440px) ======== */
+  @media (min-width: 1440px) {
+  
+    /* Primeira Seção */
+    .texto-inicial {
+      margin-left: 100px;
+      margin-top: 80px;
+    }
+  
+    .texto-inicial h1 {
+      font-size: 42px;
+    }
+  
+    .texto-inicial p {
+      font-size: 18px;
+    }
+  
+    .cadastrar {
+      font-size: 20px;
+      width: 260px;
+      height: 48px;
+    }
+  
+    .imagem-inicial svg {
+      width: 700px;
+    }
+  
+    /* Segunda Seção */
+    .segunda-imagem svg {
+      width: 420px;
+      margin-top: 250px;
+    }
+  
+    .segundo-texto {
+      padding-top: 220px;
+    }
+  
+    .segundo-texto h5 {
+      font-size: 20px;
+    }
+  
+    .segundo-texto h4 {
+      font-size: 26px;
+    }
+  
+    .segundo-texto p {
+      font-size: 18px;
+    }
+  
+    /* Terceira Seção */
+    .terceira-secao {
+      margin-top: 180px;
+      padding: 60px 50px;
+      gap: 40px;
+    }
+  
+    .terceiro-texto {
+      font-size: 26px;
+    }
+  
+    .icones-funcionamento {
+      gap: 40px;
+    }
+  
+    .icone-quadrado {
+      width: 360px;
+      height: 260px;
+    }
+  
+    .icone-quadrado i {
+      font-size: 50px;
+    }
+  
+    .icone-quadrado .titulo {
+      font-size: 18px;
+    }
+  
+    .icone-quadrado .descricao {
+      font-size: 14px;
+    }
+  
+    /* Quarta Seção */
+    .quarta-secao {
+      padding: 200px 80px;
+      gap: 80px;
+    }
+  
+    .quarta-secao svg {
+      width: 480px;
+    }
+  
+    .autora h2 {
+      font-size: 30px;
+    }
+  
+    .descricao-autora {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+  
+  

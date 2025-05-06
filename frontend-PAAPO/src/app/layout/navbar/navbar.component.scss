@@ -1,67 +1,75 @@
-.navbar{
-   background-color: #82243B;
-   width: 100%;
-   height: 50%;
-}
-
-.container{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-}
-
-.img{
+.navbar {
+    background-color: #82243B;
+    width: 100%;
+    height: auto;
+    padding: 20px 120px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .img {
     width: 150px;
     height: 90px;
-}
-
-.btn-entrar{
+  }
+  
+  .btn-entrar {
     font-family: 'Glacial-Bold', sans-serif;
     font-size: 24px;
-    align-items: center;
-    margin-right: 0;
-    width: 143px;
-    height: 51px;
+    width: 130px;
+    height: 50px;
     border-radius: 10px;
     background-color: #D9D9D9;
-    border: #D9D9D9 1px solid;
+    border: 1px solid #D9D9D9;
     color: #BA3D5C;
-}
-
-/*--------Responsividade--------*/
-@media (max-width: 485px){
-
-    .navbar{
-        height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 485px) {
+    .navbar {
+      padding: 10px 20px;
+      height: auto;
     }
-
-    .container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
+  
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
     }
-
-    .img{
-        margin-top: 8px;
-        margin-left: 10px;
-        width: 100px;
-        height: 70px;
+  
+    .img {
+      width: 100px;
+      height: 70px;
+      margin: 0;
     }
-
-    
-    .btn-primary{
-        background-color: #D9D9D9;
-        color: #BA3D5C;
-        border-radius: 10px;
-        width: 10px;
-        height: 5px;
-    }
-
-    .btn-entrar{
+  
+    .btn-entrar {
       display: none;
     }
-
-
-   
-}
+  }
+  
+  // @media (min-width: 1440px) {
+  //   .navbar {
+  //     padding: 20px 120px;
+  //   }
+  
+  //   .img {
+  //     width: 180px;
+  //     height: 100px;
+  //   }
+  
+  //   .btn-entrar {
+  //     font-size: 26px;
+  //     width: 130px;
+  //     height: 50px;
+  //   }
+  // }
+  
