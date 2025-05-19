@@ -25,7 +25,6 @@
     font-family: 'Glacial-Regular', sans-serif;
     font-size: 20px;
     color: #000000;
-    text-align: justify;
 }
 
 .cadastrar{
@@ -130,7 +129,7 @@
 }
 
 .icone-quadrado {
-    background-color: #BA3D5C;
+    background-color: #ED5278;
     width: 400px; 
     height: 300px; 
     border-radius: 20px; 
@@ -178,7 +177,6 @@
 .quarta-secao svg {
     width: 514px;
     height: 549px;
-    border-radius: 8px; 
     object-fit: cover; 
 }
 
@@ -335,105 +333,4 @@
     }
   }
   
-  /* ======== DESKTOP GRANDE (mínimo 1440px) ======== */
-  @media (min-width: 1440px) {
-  
-    /* Primeira Seção */
-    .texto-inicial {
-      margin-left: 100px;
-      margin-top: 80px;
-    }
-  
-    .texto-inicial h1 {
-      font-size: 42px;
-    }
-  
-    .texto-inicial p {
-      font-size: 18px;
-    }
-  
-    .cadastrar {
-      font-size: 20px;
-      width: 260px;
-      height: 48px;
-    }
-  
-    .imagem-inicial svg {
-      width: 700px;
-    }
-  
-    /* Segunda Seção */
-    .segunda-imagem svg {
-      width: 420px;
-      margin-top: 250px;
-    }
-  
-    .segundo-texto {
-      padding-top: 220px;
-    }
-  
-    .segundo-texto h5 {
-      font-size: 20px;
-    }
-  
-    .segundo-texto h4 {
-      font-size: 26px;
-    }
-  
-    .segundo-texto p {
-      font-size: 18px;
-    }
-  
-    /* Terceira Seção */
-    .terceira-secao {
-      margin-top: 180px;
-      padding: 60px 50px;
-      gap: 40px;
-    }
-  
-    .terceiro-texto {
-      font-size: 26px;
-    }
-  
-    .icones-funcionamento {
-      gap: 40px;
-    }
-  
-    .icone-quadrado {
-      width: 360px;
-      height: 260px;
-    }
-  
-    .icone-quadrado i {
-      font-size: 50px;
-    }
-  
-    .icone-quadrado .titulo {
-      font-size: 18px;
-    }
-  
-    .icone-quadrado .descricao {
-      font-size: 14px;
-    }
-  
-    /* Quarta Seção */
-    .quarta-secao {
-      padding: 200px 80px;
-      gap: 80px;
-    }
-  
-    .quarta-secao svg {
-      width: 480px;
-    }
-  
-    .autora h2 {
-      font-size: 30px;
-    }
-  
-    .descricao-autora {
-      font-size: 18px;
-      line-height: 28px;
-    }
-  }
-  
-  
+ 
