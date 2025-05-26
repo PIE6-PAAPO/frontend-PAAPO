@@ -18,54 +18,55 @@
     <div class="right">
         <div  style="background-color: white; width: 50%; height: 80%; display: flex; justify-content: center; align-items: center; flex-direction: column; border-radius: 10px;">
         <h1>Crie sua conta</h1>
-        <form class="col-9">
-            <!-- Email input -->
+        <form [formGroup]="cadastroForm" (ngSubmit)="onSubmit()" class="col-9">
+
             <mdb-form-control class="mb-4">
-              <input mdbInput type="text" id="form1Example1" class="form-control" />
-              <label mdbLabel class="form-label" for="form1Example1">Nome Completo</label>
+              <input mdbInput type="text" id="full_name" formControlName="full_name" class="form-control" />
+              <label mdbLabel class="form-label" for="full_name">Nome Completo</label>
             </mdb-form-control>
 
             <mdb-form-control class="mb-4">
-                <input mdbInput type="email" id="form1Example1" class="form-control" />
-                <label mdbLabel class="form-label" for="form1Example1">Email</label>
-              </mdb-form-control>
+              <input mdbInput type="email" id="email" formControlName="email" class="form-control" />
+              <label mdbLabel class="form-label" for="email">Email</label>
+            </mdb-form-control>
 
-              <mdb-form-control class="mb-4">
-                <input mdbInput type="date" id="form1Example1" class="form-control" />
-                <label mdbLabel class="form-label" for="form1Example1">Data de nascimento</label>
-              </mdb-form-control>
-
-              <mdb-form-control class="mb-4">
-                <input mdbInput type="tel" id="form1Example1" class="form-control" />
-                <label mdbLabel class="form-label" for="form1Example1">WhatsApp</label>
-              </mdb-form-control>
-
-              <mdb-form-control class="mb-4">
-                <input mdbInput type="text" id="form1Example1" class="form-control" />
-                <label mdbLabel class="form-label" for="form1Example1">Endereço</label>
-              </mdb-form-control>
-
-              <mdb-form-control class="mb-4">
-                <input mdbInput type="text" id="form1Example1" class="form-control" />
-                <label mdbLabel class="form-label" for="form1Example1">Profissão</label>
-              </mdb-form-control>
-          
-            <!-- Password input -->
+            
             <mdb-form-control class="mb-4">
-              <input mdbInput type="password" id="form1Example2" class="form-control" />
-              <label mdbLabel class="form-label" for="form1Example2">Senha</label>
+              <input mdbInput type="date" id="birthdate" formControlName="birthdate" class="form-control" />
+              <label mdbLabel class="form-label" for="birthdate">Data de nascimento</label>
+            </mdb-form-control>
+
+            
+            <mdb-form-control class="mb-4">
+              <input mdbInput type="tel" id="phone_number" formControlName="phone_number" class="form-control" />
+              <label mdbLabel class="form-label" for="phone_number">WhatsApp</label>
+            </mdb-form-control>
+
+            
+            <mdb-form-control class="mb-4">
+              <input mdbInput type="text" id="address" formControlName="address" class="form-control" />
+              <label mdbLabel class="form-label" for="address">Endereço</label>
+            </mdb-form-control>
+
+            
+            <mdb-form-control class="mb-4">
+              <input mdbInput type="text" id="occupation" formControlName="occupation" class="form-control" />
+              <label mdbLabel class="form-label" for="occupation">Profissão</label>
+            </mdb-form-control>
+          
+
+            <mdb-form-control class="mb-4">
+              <input mdbInput type="password" id="password" formControlName="password" class="form-control" />
+              <label mdbLabel class="form-label" for="password">Senha</label>
             </mdb-form-control>
 
             <mdb-form-control class="mb-4">
-                <input mdbInput type="password" id="form1Example2" class="form-control" />
-                <label mdbLabel class="form-label" for="form1Example2">Confirme sua senha</label>
-              </mdb-form-control>
+              <input mdbInput type="password" id="confirmPassword" formControlName="confirmPassword" class="form-control" />
+              <label mdbLabel class="form-label" for="confirmPassword">Confirme sua senha</label>
+            </mdb-form-control>
           
-            
-          
-            <!-- Submit button -->
-            <button style="margin-bottom: 15px; background-color: #D4D4D8; color: #000000;" mdbRipple type="button" class="btn  btn-block">Criar</button>
-            
+  
+            <button [disabled]="!cadastroForm.valid" style="margin-bottom: 15px; background-color: #D4D4D8; color: #000000;" mdbRipple type="submit" class="btn btn-block">Criar</button>
         </form>
         </div>
     </div>
