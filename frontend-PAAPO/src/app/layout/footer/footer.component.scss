@@ -1,5 +1,5 @@
 .footer {
-  background-color: #771C32;
+  background-color: #771c32;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,13 +8,10 @@
   height: auto;
 }
 
-
-
 .footer-logo svg {
   width: 100px;
   height: auto;
 }
-
 
 @media screen and (max-width: 485px) {
   .footer {
@@ -32,4 +29,3 @@
     font-size: 13px;
   }
 }
-

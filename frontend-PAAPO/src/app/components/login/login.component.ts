@@ -5,8 +5,6 @@ import { MdbFormsModule } from 'mdb-angular-ui-kit/forms';
   selector: 'app-login',
   imports: [MdbFormsModule],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.scss'
+  styleUrl: './login.component.scss',
 })
-export class LoginComponent {
-
-}
+export class LoginComponent {}

@@ -1,69 +1,68 @@
 .container-dropdown {
-   position: relative;
-   margin-top: 31px;
-   padding: 10px;
- }
- 
- .dropdown {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   font-family: 'Glacial-Regular', sans-serif;
-   position: relative;
- }
- 
- .dropdown i {
-   display: flex;
-   color: #BA3D5C;
-   font-size: 20px;
-   background-color: #FFFF;
-   width: 35px;
-   height: 35px;
-   justify-content: center;
-   align-items: center;
-   border-radius: 50%;
-   cursor: pointer;
-   right:85px;
- }
- 
- .dropdown ul {
-   position: absolute;
-   top: 100%;
-   left: 0;
-   transform: translateX(-50%);
-   background-color: #82243B;
-   display: none;
-   opacity: 0;
-   pointer-events: none;
-   transition: opacity 0.3s ease;
-   min-width: 150px; 
-   border: #FFFF 1px solid;
-   text-align: center;
-   z-index: 10;
-   list-style: none;
- }
- 
- .dropdown.show ul {
-   display: block;
-   opacity: 1;
-   pointer-events: auto;
- }
- 
- .dropdown ul li a {
-   display: block;
-   padding: 8px 0;
-   text-decoration: none;
-   color: #FFFF;
-   border-bottom: #FFFF 1px solid;
-   list-style: none;
- }
- 
- .dropdown ul li:last-child a {
-   border-bottom: none;
- }
- 
- .dropdown ul li a:hover {
-   background-color: #D9D9D9;
-   color: #000;
- }
- 
+  position: relative;
+  margin-top: 31px;
+  padding: 10px;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Glacial-Regular", sans-serif;
+  position: relative;
+}
+
+.dropdown i {
+  display: flex;
+  color: #ba3d5c;
+  font-size: 20px;
+  background-color: #ffff;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  right: 85px;
+}
+
+.dropdown ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateX(-50%);
+  background-color: #82243b;
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  min-width: 150px;
+  border: #ffff 1px solid;
+  text-align: center;
+  z-index: 10;
+  list-style: none;
+}
+
+.dropdown.show ul {
+  display: block;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.dropdown ul li a {
+  display: block;
+  padding: 8px 0;
+  text-decoration: none;
+  color: #ffff;
+  border-bottom: #ffff 1px solid;
+  list-style: none;
+}
+
+.dropdown ul li:last-child a {
+  border-bottom: none;
+}
+
+.dropdown ul li a:hover {
+  background-color: #d9d9d9;
+  color: #000;
+}

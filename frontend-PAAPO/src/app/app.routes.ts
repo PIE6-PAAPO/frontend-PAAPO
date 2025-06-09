@@ -6,10 +6,10 @@ import { ForgetPasswordComponent } from './components/forget-password/forget-pas
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 
 export const routes: Routes = [
-    {path: "",redirectTo: "homepage", pathMatch: "full"},
-    {path:'homepage', component: HomepageComponent}
-    {path: 'login', component: LoginComponent},
-    {path: 'cadastro', component: CadastroComponent},
-    {path: 'forget-password', component: ForgetPasswordComponent},
-    {path: 'reset-password', component: ResetPasswordComponent},
+  { path: '', redirectTo: 'homepage', pathMatch: 'full' },
+  { path: 'homepage', component: HomepageComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'cadastro', component: CadastroComponent },
+  { path: 'forget-password', component: ForgetPasswordComponent },
+  { path: 'reset-password', component: ResetPasswordComponent },
 ];

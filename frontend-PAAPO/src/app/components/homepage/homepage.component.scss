@@ -1,336 +1,333 @@
-.primeira-secao{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+.primeira-secao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
 }
 
-.texto-inicial{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: flex-start;
-    margin-top: 80px;
-    margin-left: 81px;
+.texto-inicial {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  margin-top: 80px;
+  margin-left: 81px;
 }
 
-.texto-inicial h1{
-    font-family: 'Glacial-Bold', sans-serif;
-    font-size: 49px;
-    color: black;
+.texto-inicial h1 {
+  font-family: "Glacial-Bold", sans-serif;
+  font-size: 49px;
+  color: black;
 }
 
-.texto-inicial p{
-    font-family: 'Glacial-Regular', sans-serif;
-    font-size: 20px;
-    color: #000000;
+.texto-inicial p {
+  font-family: "Glacial-Regular", sans-serif;
+  font-size: 20px;
+  color: #000000;
 }
 
-.cadastrar{
-    background-color: #BA3D5C;
-    width: 286px;
-    height: 50px;
-    font-family: 'Glacial-Bold', sans-serif;
-    font-size: 24px;
-    color: #ffff;
-    border-radius: 12px;
-    border: #BA3D5C 1px solid;
+.cadastrar {
+  background-color: #ba3d5c;
+  width: 286px;
+  height: 50px;
+  font-family: "Glacial-Bold", sans-serif;
+  font-size: 24px;
+  color: #ffff;
+  border-radius: 12px;
+  border: #ba3d5c 1px solid;
 }
 
-.imagem-inicial{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.imagem-inicial {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.imagem-inicial svg{
-    width: 716px;
-    height: 476px;
+.imagem-inicial svg {
+  width: 716px;
+  height: 476px;
 }
 
-.segunda-secao{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+.segunda-secao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
 }
 
-.segunda-imagem{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap:28px;
+.segunda-imagem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 28px;
 }
 
-.segunda-imagem svg{
-    width: 433px;
-    height: 507px;
-    margin-top: 300px;
-    margin-left: 81px;
+.segunda-imagem svg {
+  width: 433px;
+  height: 507px;
+  margin-top: 300px;
+  margin-left: 81px;
 }
 
-.segundo-texto{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-top: 282px;
+.segundo-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 282px;
 }
 
-.segundo-texto h5{
-    font-family: 'Glacial-Regular', sans-serif;
-    font-size: 25px;
-    color: #000000;
+.segundo-texto h5 {
+  font-family: "Glacial-Regular", sans-serif;
+  font-size: 25px;
+  color: #000000;
 }
 
-.segundo-texto h4{
-    font-family: 'Glacial-Bold', sans-serif;
-    font-size: 31px;
-    color: #000000;
+.segundo-texto h4 {
+  font-family: "Glacial-Bold", sans-serif;
+  font-size: 31px;
+  color: #000000;
 }
 
-.destaque{
-    color: #BA3D5C;
+.destaque {
+  color: #ba3d5c;
 }
 
-.segundo-texto p{
-    font-family: 'Glacial-Regular', sans-serif;
-    font-size: 20px;
-    color: #000000;
-    text-align: justify;
-    margin-top: 50px;
+.segundo-texto p {
+  font-family: "Glacial-Regular", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  text-align: justify;
+  margin-top: 50px;
 }
 
 .terceira-secao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px; 
-    padding: 60px 20px; 
-    margin-top: 220px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 60px 20px;
+  margin-top: 220px;
 }
 
 .terceiro-texto {
-    text-align: center;
-    font-family: 'Glacial-Bold', sans-serif;
-    color: #000000;
-    font-size: 31px; 
+  text-align: center;
+  font-family: "Glacial-Bold", sans-serif;
+  color: #000000;
+  font-size: 31px;
 }
 
 .icones-funcionamento {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 60px; 
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
 }
 
 .icone-quadrado {
-    background-color: #ED5278;
-    width: 400px; 
-    height: 300px; 
-    border-radius: 20px; 
-    padding: 30px 20px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: center;
-    transition: transform 0.3s;
+  background-color: #ed5278;
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  transition: transform 0.3s;
 }
 
 .icone-quadrado:hover {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 .icone-quadrado i {
-    font-size: 65px; 
-    color: #ffffff;
+  font-size: 65px;
+  color: #ffffff;
 }
 
 .icone-quadrado .titulo {
-    margin-top: 15px;
-    font-size: 20px; 
-    font-weight: bold;
-    font-family: 'Glacial-Bold', sans-serif;
-    color: #ffffff;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Glacial-Bold", sans-serif;
+  color: #ffffff;
 }
 
 .icone-quadrado .descricao {
-    margin-top: 12px;
-    font-size: 15px; 
-    color: #ffffff;
-    font-family: 'Glacial-Regular', sans-serif;
+  margin-top: 12px;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: "Glacial-Regular", sans-serif;
 }
 
 .quarta-secao {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start; 
-    gap: 100px; 
-    padding: 261px 1px; 
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 100px;
+  padding: 261px 1px;
 }
 
 .quarta-secao svg {
-    width: 514px;
-    height: 549px;
-    object-fit: cover; 
+  width: 514px;
+  height: 549px;
+  object-fit: cover;
 }
 
 .autora {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 600px;
 }
 
 .autora h2 {
-    font-family: 'Glacial-Bold', sans-serif;
-    font-size: 36px;
-    color: #000;
-    margin-bottom: 24px;
+  font-family: "Glacial-Bold", sans-serif;
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 24px;
 }
 
 .descricao-autora {
-    font-family: 'Glacial-Regular', sans-serif;
-    font-size: 22px;
-    color: #000;
-    margin-bottom: 20px;
-    line-height: 30px;
+  font-family: "Glacial-Regular", sans-serif;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 20px;
+  line-height: 30px;
 }
 
 /* ======== MOBILE FIRST (até 485px) ======== */
 @media (max-width: 485px) {
-
-    /* Seção 1 - Primeira dobra */
-    .primeira-secao {
-      flex-direction: column;
-      padding: 20px;
-      gap: 20px;
-      text-align: center;
-    } 
-  
-    .texto-inicial {
-      margin: 20px 0 0 0;
-      align-items: center;
-      gap: 10px;
-    }
-  
-    .texto-inicial h1 {
-      font-size: 28px;
-    }
-  
-    .texto-inicial p {
-      font-size: 14px;
-    }
-  
-    .cadastrar {
-      width: 90%;
-      font-size: 16px;
-      height: 44px;
-    }
-  
-    .imagem-inicial svg {
-      width: 100%;
-      height: auto;
-    }
-  
-    /* Seção 2 */
-    .segunda-secao {
-      flex-direction: column;
-      padding: 20px;
-      gap: 20px;
-    }
-  
-    .segunda-imagem svg {
-      width: 100%;
-      height: auto;
-      margin: 0;
-    }
-  
-    .segundo-texto {
-      padding: 0;
-      text-align: center;
-      align-items: center;
-      gap: 10px;
-    }
-  
-    .segundo-texto h5 {
-      font-size: 16px;
-    }
-  
-    .segundo-texto h4 {
-      font-size: 20px;
-    }
-  
-    .segundo-texto p {
-      font-size: 14px;
-      margin-top: 15px;
-    }
-  
-    /* Seção 3 - Funcionalidades */
-    .terceira-secao {
-      margin-top: 60px;
-      padding: 30px 15px;
-      gap: 30px;
-    }
-  
-    .terceiro-texto {
-      font-size: 20px;
-    }
-  
-    .icones-funcionamento {
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-    .icone-quadrado {
-      width: 100%;
-      max-width: 280px;
-      padding: 20px;
-      height: auto;
-    }
-  
-    .icone-quadrado i {
-      font-size: 40px;
-    }
-  
-    .icone-quadrado .titulo {
-      font-size: 16px;
-    }
-  
-    .icone-quadrado .descricao {
-      font-size: 13px;
-    }
-  
-    /* Seção 4 - Autora */
-    .quarta-secao {
-      flex-direction: column;
-      padding: 40px 20px;
-      gap: 30px;
-    }
-  
-    .quarta-secao svg {
-      width: 100%;
-      height: auto;
-    }
-  
-    .autora {
-      text-align: center;
-      align-items: center;
-    }
-  
-    .autora h2 {
-      font-size: 24px;
-    }
-  
-    .descricao-autora {
-      font-size: 14px;
-      line-height: 22px;
-    }
+  /* Seção 1 - Primeira dobra */
+  .primeira-secao {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
   }
-  
- 
+
+  .texto-inicial {
+    margin: 20px 0 0 0;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .texto-inicial h1 {
+    font-size: 28px;
+  }
+
+  .texto-inicial p {
+    font-size: 14px;
+  }
+
+  .cadastrar {
+    width: 90%;
+    font-size: 16px;
+    height: 44px;
+  }
+
+  .imagem-inicial svg {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Seção 2 */
+  .segunda-secao {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .segunda-imagem svg {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .segundo-texto {
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .segundo-texto h5 {
+    font-size: 16px;
+  }
+
+  .segundo-texto h4 {
+    font-size: 20px;
+  }
+
+  .segundo-texto p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  /* Seção 3 - Funcionalidades */
+  .terceira-secao {
+    margin-top: 60px;
+    padding: 30px 15px;
+    gap: 30px;
+  }
+
+  .terceiro-texto {
+    font-size: 20px;
+  }
+
+  .icones-funcionamento {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .icone-quadrado {
+    width: 100%;
+    max-width: 280px;
+    padding: 20px;
+    height: auto;
+  }
+
+  .icone-quadrado i {
+    font-size: 40px;
+  }
+
+  .icone-quadrado .titulo {
+    font-size: 16px;
+  }
+
+  .icone-quadrado .descricao {
+    font-size: 13px;
+  }
+
+  /* Seção 4 - Autora */
+  .quarta-secao {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .quarta-secao svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .autora {
+    text-align: center;
+    align-items: center;
+  }
+
+  .autora h2 {
+    font-size: 24px;
+  }
+
+  .descricao-autora {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

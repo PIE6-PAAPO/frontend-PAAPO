@@ -1,26 +1,27 @@
-@use '@fortawesome/fontawesome-free/css/all.css';
-@use 'mdb-angular-ui-kit/assets/scss/mdb.scss';
+@use "@fortawesome/fontawesome-free/css/all.css";
+@use "mdb-angular-ui-kit/assets/scss/mdb.scss";
 
 @font-face {
-    font-family: "Glacial-Bold";
-    src: url('../fontes/GlacialIndifference-Bold.otf');
+  font-family: "Glacial-Bold";
+  src: url("../fontes/GlacialIndifference-Bold.otf");
 }
 
 @font-face {
-    font-family: "Glacial-Regular";
-    src: url('../fontes/GlacialIndifference-Regular.otf');
+  font-family: "Glacial-Regular";
+  src: url("../fontes/GlacialIndifference-Regular.otf");
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html, body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
-  
-@import '@fortawesome/fontawesome-free/css/all.css';
-@import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "mdb-angular-ui-kit/assets/scss/mdb.scss";

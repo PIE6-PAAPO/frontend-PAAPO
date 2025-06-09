@@ -1,16 +1,10 @@
 <div class="container-dropdown">
+  <div class="dropdown" [class.show]="mostrarOpcoes">
+    <i class="fas fa-align-justify" (click)="toggleOpcoes()"></i>
 
-    <div class="dropdown" [class.show]="mostrarOpcoes">
-
-        <i class="fas fa-align-justify" (click)="toggleOpcoes()"></i>
-        
-        <ul>
-    
-            <li><a href="#">Entrar</a></li>
-            <li><a href="#">Cadastrar</a></li>
-
-        </ul>
-
-    </div>
-
+    <ul>
+      <li><a href="#">Entrar</a></li>
+      <li><a href="#">Cadastrar</a></li>
+    </ul>
+  </div>
 </div>
