@@ -1,31 +1,19 @@
-FROM node:22-bullseye-slim AS build
-
-# Defina o diretório de trabalho dentro do container
+# ————— Build Stage —————
+FROM node:20-alpine AS build
 WORKDIR /app
 
-# Copie o package.json e o package-lock.json
 COPY package*.json ./
+RUN npm ci
 
-# Instale as dependências do projeto
-RUN npm install
+COPY angular.json tsconfig*.json ./
+COPY src ./src
 
-# Copie o restante do código do projeto
-COPY . .
+RUN npm run build  # builda usando config do angular.json
 
-# Construa o projeto Angular
-RUN npm run build --prod
+# ————— Production Stage —————
+FROM nginx:stable-alpine AS prod
 
-# Use a imagem oficial do Nginx baseada no Ubuntu como base para o estágio de produção
-FROM nginx:stable
+COPY --from=build /app/dist/frontend-paapo/browser /usr/share/nginx/html
 
-# Instale o curl (opcional, mas útil para testes e depuração)
-RUN apt-get update && apt-get install -y curl
-
-# Copie os arquivos estáticos construídos para o diretório padrão do Nginx
-COPY --from=build /app/dist /usr/share/nginx/html
-
-# Exponha a porta 80 para o Nginx
 EXPOSE 80
-
-# Inicie o Nginx
 CMD ["nginx", "-g", "daemon off;"]
