@@ -7,8 +7,8 @@ import {
   FormGroup,
   Validators,
 } from '@angular/forms';
-import { User } from '../../models/user.model';
 import { CommonModule } from '@angular/common';
+import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-cadastro',
@@ -20,7 +20,7 @@ import { CommonModule } from '@angular/common';
 export class CadastroComponent {
   cadastroForm: FormGroup;
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private userService: UserService) {
     this.cadastroForm = this.fb.group(
       {
         full_name: ['', [Validators.required]],
@@ -42,24 +42,53 @@ export class CadastroComponent {
     const password = form.get('password');
     const confirmPassword = form.get('confirmPassword');
 
-    if (
-      password &&
-      confirmPassword &&
-      password.value !== confirmPassword.value
-    ) {
+    if (!password || !confirmPassword) return null;
+
+    if (password.value !== confirmPassword.value) {
       confirmPassword.setErrors({ passwordMismatch: true });
+    } else {
+      // Limpa o erro passwordMismatch, se existir
+      const errors = confirmPassword.errors;
+      if (errors) {
+        delete errors['passwordMismatch'];
+        if (Object.keys(errors).length === 0) {
+          confirmPassword.setErrors(null);
+        } else {
+          confirmPassword.setErrors(errors);
+        }
+      }
     }
+
+    return null;
   }
 
   onSubmit() {
+    console.log('entrou');
     if (this.cadastroForm.valid) {
-      const userData: User = {
-        ...this.cadastroForm.value,
-        role: 'USER',
-        health_information: null,
+      const fullName = this.cadastroForm.value.full_name.trim();
+      const [firstName, ...rest] = fullName.split(' ');
+      const lastName = rest.join(' ') || ' ';
+
+      const registerPayload = {
+        first_name: firstName,
+        last_name: lastName,
+        email: this.cadastroForm.value.email,
+        password: this.cadastroForm.value.password,
+        cover_url: 'https://default.cover/image.png',
       };
 
-      console.log('Dados do usuário:', userData);
+      console.log('Payload para backend:', registerPayload);
+
+      this.userService.register(registerPayload).subscribe({
+        next: (response) => {
+          console.log('Resposta do backend:', response);
+        },
+        error: (err) => {
+          console.error('Erro na requisição:', err);
+        },
+      });
+    } else {
+      console.warn('Formulário inválido');
     }
   }
 }
