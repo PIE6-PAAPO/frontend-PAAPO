@@ -85,6 +85,9 @@
             type="email"
             id="form1Example1"
             class="form-control"
+            [(ngModel)]="email"
+            name="email"
+            required
           />
           <label mdbLabel class="form-label" for="form1Example1">Email</label>
         </mdb-form-control>
@@ -96,15 +99,20 @@
             type="password"
             id="form1Example2"
             class="form-control"
+            [(ngModel)]="password"
+            name="password"
+            required
           />
           <label mdbLabel class="form-label" for="form1Example2">Senha</label>
         </mdb-form-control>
 
-        <!-- 2 column grid layout for inline styling -->
+        <!-- Mensagem de erro -->
+        <div *ngIf="errorMessage" class="text-danger mb-2">
+          {{ errorMessage }}
+        </div>
+
         <div class="row mb-4">
           <div class="col d-flex justify-content-start">
-            <!-- Checkbox -->
-
             <a class="forget-password" href="/forget-password"
               >Esqueceu sua senha?</a
             >
@@ -117,12 +125,12 @@
           mdbRipple
           type="button"
           class="btn btn-block"
+          (click)="onLogin()"
         >
           Entrar
         </button>
-        <div class="col d-flex justify-content-center">
-          <!-- Checkbox -->
 
+        <div class="col d-flex justify-content-center">
           <a style="color: #82243b" href="/cadastro">Crie uma conta aqui</a>
         </div>
       </form>
