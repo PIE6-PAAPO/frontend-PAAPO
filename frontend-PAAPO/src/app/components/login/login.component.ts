@@ -31,7 +31,7 @@ export class LoginComponent {
     this.userService.login(payload).subscribe({
       next: (res) => {
         localStorage.setItem('token', res.access_token);
-        this.router.navigate(['/homepage']);
+        this.router.navigate(['/user-home']);
       },
       error: (err) => {
         this.errorMessage = 'Credenciais inválidas.';
