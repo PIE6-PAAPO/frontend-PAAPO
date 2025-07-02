@@ -1,0 +1,42 @@
+<h2 mat-dialog-title>Qual seu nível de dor?</h2>
+
+<mat-dialog-content class="slider-container">
+  <div class="bar-wrapper">
+
+    <!-- Barra colorida com segmentos clicáveis -->
+    <div class="bar">
+      <div
+        *ngFor="let n of numbers; let i = index"
+        class="segment"
+        [ngStyle]="{ 'background-color': getColor(i) }"
+        [class.selected]="selected === i"
+        (click)="select(i)">
+      </div>
+    </div>
+
+    <!-- Rótulos alinhados com os segmentos -->
+    <div class="bar-labels">
+      <span *ngFor="let n of numbers; let i = index">
+        {{ i === 0 ? '0' : i === 10 ? '10' : '' }}
+      </span>
+    </div>
+
+  </div>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button
+    mat-button
+    class="cancel-button"
+    (click)="cancel()">
+    Cancelar
+  </button>
+
+  <button
+    mat-raised-button
+    class="confirm-button"
+    [disabled]="selected === null"
+    (click)="confirm()">
+    Confirmar
+  </button>
+</mat-dialog-actions>

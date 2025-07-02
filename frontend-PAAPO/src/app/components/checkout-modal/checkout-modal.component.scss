@@ -1,0 +1,116 @@
+:host ::ng-deep .mat-dialog-container {
+  background-color: #ffffff !important;
+  color: #F67695 !important;
+  font-family: 'Glacial-Bold', sans-serif;
+  border-radius: 16px;
+}
+
+// Container principal do conteúdo
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Wrapper da barra e dos rótulos
+.bar-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 30px 0;
+
+  // Barra de seleção (colorida)
+  .bar {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  // Rótulos abaixo da barra
+  .bar-labels {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    margin-top: 8px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+
+    span {
+      text-align: center;
+      &:first-child {
+        text-align: left;
+      }
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+}
+
+// Segmentos clicáveis
+.segment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &.selected {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transform: scale(1.1);
+    border-radius: 5px;
+  }
+}
+
+// Exibição do valor selecionado
+.value-display {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #F67695;
+}
+
+// Ações (botões)
+mat-dialog-actions {
+   display: flex;
+  justify-content: center;
+  gap: 8px;                
+  margin-top: 16px;        
+  padding-bottom: 8px;     
+  flex-wrap: wrap;
+}
+
+
+// Estilo base dos botões
+button.cancel-button,
+button.confirm-button {
+  background-color: #82243B !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  font-family: 'Glacial-Regular', sans-serif;
+  border-radius: 8px;
+  padding: 8px 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+  border: none;
+
+  &:hover {
+    background-color: #ED5278 !important;
+    transform: translateY(-2px);
+  }
+&:disabled {
+  background-color: #F67695 !important;
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  color: #ffffff !important;
+}
+}
