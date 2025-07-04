@@ -1,0 +1,17 @@
+<div class="modal-overlay">
+    <div class="modal-content">
+      <h2>{{ titulo }}</h2>
+ 
+      <img [src]="fotoUrl" alt="Foto do exercício" class="modal-foto" />
+ 
+      <p>{{ descricao }}</p>
+ 
+      <div class="progress-bar-container">
+        <div class="progress-bar" [style.width]="progresso + '%'">
+          <span *ngIf="progresso > 0">{{ progresso }}%</span>
+        </div>
+      </div>
+ 
+      <button (click)="onAvancar()">Avançar</button>
+    </div>
+  </div>
