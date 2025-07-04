@@ -8,5 +8,55 @@
     "titulo": "Circundação de ombro",
     "descricao": "Fique em pé ou sentado com a postura reta, levante o braço estendido para o lado ou para a frente e faça movimentos circulares lentos com o braço, girando o ombro como se estivesse desenhando um grande círculo no ar. Faça o movimento para frente 10 vezes e depois repita girando para trás mais 10 vezes.",
     "fotoUrl": "https://www.kenhub.com/thumbor/rQcBQb7fKmjdwPMsFxGMTiVlZz4=/fit-in/800x1600/filters:watermark(/images/logo_url.png,-10,-10,0):background_color(FFFFFF):format(jpeg)/images/library/9142/Circumduction__of_upper_limb.png"
+  },
+  {
+    "titulo": "Flexão de ombro - toalha/bastão",
+    "descricao": "Segure uma toalha ou bastão com as duas mãos, mantendo os braços estendidos à frente do corpo. Levante lentamente os braços, levando a toalha ou bastão para cima, acima da cabeça até o seu limite. Faça o movimento de subida e descida lentamente, repetindo 10 vezes.",
+    "fotoUrl": "/assets/exercicio-modelo.png"
+  },
+  {
+    "titulo": "Elevação de membros superiores na parede - bilateralmente",
+    "descricao": "Fique em pé e apoie às costas em uma parede, com os braços abertos e cotovelos dobrados ao lado do corpo com a palma da mão para frente. Deslize os braços lentamente, deslize os braços para cima, elevando-os o máximo que conseguir acima da cabeça. Em seguida, desça os braços de volta à posição inicial. Repita esse movimento 10 vezes.",
+    "fotoUrl": "/assets/exercicio-modelo.png"
+  },
+  {
+    "titulo": "Elevação de membros superiores na parede - unilateralmente",
+    "descricao": "Fique em pé próximo a uma parede, com os braços estendidos ao lado do corpo. Apoie uma mão na parede e, lentamente, deslize o braço para cima, elevando-o o máximo que conseguir. Em seguida, desça o braço de volta à posição inicial. Repita esse movimento 10 vezes e, em seguida, faça o movimento com o outro braço.",
+    "fotoUrl": "/assets/exercicio-modelo.png"
+  },
+  {
+    "titulo": "Circundação de punho",
+    "descricao": "Fique com os braços estendidos à frente do corpo e as mãos abertas. Faça movimentos circulares lentos com os punhos, girando-os para um lado 10 vezes e depois para o outro lado 10 vezes.",
+    "fotoUrl": "/assets/exercicio-modelo.png"
+  },
+  {
+    "titulo": "Rotação de tronco",
+    "descricao": "Fique em pé com a postura reta e cruze os braços em frente ao peito. Gire lentamente o tronco para o lado direito, a cabeça e os braços acompanham o movimento, até o máximo que conseguir. Mantenha o quadril e as pernas paradas, não acompanhando o movimento. Volte à posição inicial e repita o movimento para o lado esquerdo. Faça essa rotação 10 vezes para cada lado.",
+    "fotoUrl": "/assets/exercicio-modelo.png"
+  },
+  {
+    "titulo": "Circundação de quadril",
+    "descricao": "Fique em pé com os pés afastados na largura dos ombros e as mãos apoiadas na cintura. Faça movimentos circulares com o quadril, como se estivesse desenhando um círculo com o quadril no ar. Gire 10 vezes para a direita e depois 10 vezes para a esquerda.",
+    "fotoUrl": "/assets/exercicio-modelo.png"
+  },
+  {
+    "titulo": "Abdução de quadril com flexão de joelho",
+    "descricao": "Fique em pé com a postura reta e segure-se em uma cadeira ou parede para apoio. Dobre o joelho de uma das pernas e afaste a perna para o lado, elevando-a lateralmente. Volte à posição inicial com controle. Repita o movimento 10 vezes com uma perna e depois 10 vezes com a outra.",
+    "fotoUrl": "/assets/exercicio-modelo.png"
+  },
+  {
+    "titulo": "Circundação de tornozelo",
+    "descricao": "Fique em pé com a postura reta, segurando-se em uma cadeira ou parede para apoio, se necessário. Eleve um dos pés levemente do chão, mantendo a perna parada, e faça movimentos circulares com o tornozelo, como se estivesse desenhando um círculo com o pé. Gire 10 vezes para um lado e depois 10 vezes para o outro. Repita com o outro tornozelo.",
+    "fotoUrl": "/assets/exercicio-modelo.png"
+  },
+  {
+    "titulo": "Polichinelo unilateral - alternando",
+    "descricao": "Fique em pé com os braços ao lado do corpo. Eleve ao mesmo tempo os braços acima da cabeça e afaste a perna direita para o lado. Volte à posição inicial e, em seguida, repita o movimento com o lado esquerdo, alternando os lados a cada repetição. Realize 10 repetições para cada lado duas vezes",
+    "fotoUrl": "/assets/exercicio-modelo.png"
+  },
+  {
+    "titulo": "Polichinelo frontal - alternando braços e pernas",
+    "descricao": "Fique em pé com os braços ao lado do corpo e os pés juntos. Eleve o braço direito à frente do corpo até a altura dos ombros, ao mesmo tempo em que dá um passo com a perna esquerda para frente. Volte à posição inicial e repita o movimento com o braço esquerdo e a perna direita, alternando os lados a cada repetição. Realize 10 repetições para cada lado.",
+    "fotoUrl": "/assets/exercicio-modelo.png"
   }
 ]
