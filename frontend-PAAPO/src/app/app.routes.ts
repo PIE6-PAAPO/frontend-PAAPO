@@ -14,6 +14,6 @@ export const routes: Routes = [
   { path: 'cadastro', component: CadastroComponent },
   { path: 'forget-password', component: ForgetPasswordComponent },
   { path: 'reset-password', component: ResetPasswordComponent },
-  { path: 'user-home', component: UserHomeComponent}
-    {path: 'modal', component: ModalComponent},
+  { path: 'user-home', component: UserHomeComponent },
+  { path: 'exercicios', component: ModalComponent },
 ];
